@@ -218,6 +218,7 @@ def index():
                 Solve this math problem step by step.
                 Show all working clearly.
                 Conclude with "Final Answer: [answer]"
+                Remove all the stars and unnecessary comments from the answer.  
                 """
                 solution_response = model.generate_content([solution_prompt, img])
                 solution = solution_response.text
