@@ -1,66 +1,95 @@
-# Cruciatus
+# 🤯 Cruciatus: AI-Powered Handwritten Math Solver 📝➡️💡
 
-Cruciatus is an AI-based math solver that detects handwritten mathematical equations and provides step-by-step solutions to the problems.
+Cruciatus is an AI-driven math solver that can detect handwritten mathematical equations and provide step-by-step solutions. It leverages computer vision 👁️ and deep learning 🧠 to interpret handwritten input and symbolic computation 🔢 to solve the equations.
 
-## Features
+## ✨ Features
 
-- **Handwritten Equation Recognition**: Accurately detects and interprets handwritten mathematical expressions.
-- **Step-by-Step Solutions**: Provides detailed explanations for each step in solving the detected equations.
-- **User-Friendly Interface**: Simple and intuitive interface for ease of use.
+* **Handwritten Equation Recognition:** Accurately detects and recognizes mathematical expressions from handwritten images 🖼️.
+* **Step-by-Step Solutions:** Provides detailed, easy-to-follow solutions for the given equations 🪜.
+* **Support for Various Equation Types:** Handles a wide range of mathematical problems, including:
+    * Algebraic equations 🧮
+    * Calculus problems (derivatives, integrals) 📈
+    * Arithmetic operations ➕➖✖️➗
+    * And more! 🚀
+* **User-Friendly Interface:** Simple and intuitive interface for capturing and processing handwritten input 🤝.
 
-## Installation
+## 🛠️ Installation
 
-To set up Cruciatus on your local machine:
+1.  **Clone the repository:**
 
-1. **Clone the Repository**:
+    ```bash
+    git clone [https://github.com/raiakash1204/cruciatus.git](https://www.google.com/search?q=https://github.com/raiakash1204/cruciatus.git)
+    cd cruciatus
+    ```
 
-   ```bash
-   git clone https://github.com/raiakash1204/cruciatus.git
-   ```
+2.  **Create a virtual environment (recommended):**
 
-2. **Navigate to the Project Directory**:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Linux/macOS 🐧🍎
+    venv\Scripts\activate  # On Windows 💻
+    ```
 
-   ```bash
-   cd cruciatus
-   ```
+3.  **Install the required dependencies:**
 
-3. **Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+4.  **Download necessary models (if applicable):**
+    * Some models may need to be downloaded seperately due to size constraints. 📦
+    * Refer to the documentation inside the code, or inside the model folder, for specific model download instructions. 📄
 
-## Usage
+## 🚀 Usage
 
-1. **Run the Application**:
+1.  **Run the application:**
 
-   ```bash
-   python app.py
-   ```
+    ```bash
+    python main.py # or the name of your main executable file 🏃
+    ```
 
-2. **Access the Web Interface**:
+2.  **Capture or upload a handwritten equation:**
+    * Use the provided interface to capture an image of your handwritten equation. 📸
+    * Or, upload an image from your device. 📂
 
-   Open your web browser and navigate to `http://localhost:5000`.
+3.  **Process the image:**
+    * The application will process the image, recognize the equation, and provide a step-by-step solution. ⚙️
 
-3. **Upload an Image**:
+4.  **View the solution:**
+    * The solution will be displayed in a clear and understandable format. ✅
 
-   Upload an image containing a handwritten mathematical equation.
+## 📦 Dependencies
 
-4. **View Solution**:
+* **Python:** 3.x 🐍
+* **TensorFlow/PyTorch:** For deep learning models 🧠
+* **OpenCV:** For image processing 🖼️
+* **SymPy:** For symbolic mathematics 🔢
+* **NumPy:** For numerical computations 📊
+* **Other libraries:** (Refer to `requirements.txt` for a complete list) 📚
 
-   The application will process the image and display a step-by-step solution to the equation.
+## 🤝 Contributing
 
-## Project Structure
+Contributions are welcome! If you'd like to contribute to Cruciatus, please follow these steps:
 
-- `app.py`: Main application file that runs the Flask server.
-- `templates/`: Contains HTML templates for the web interface.
-- `static/uploads/`: Directory where uploaded images are stored.
-- `requirements.txt`: Lists the Python dependencies required for the project.
+1.  **Fork the repository.** 🍴
+2.  **Create a new branch for your feature or bug fix.** 🌿
+3.  **Make your changes and commit them.** 💾
+4.  **Push your changes to your fork.** 🚀
+5.  **Submit a pull request.** 📬
 
-## License
+## 🔮 Future Enhancements
 
-This project is licensed under the MIT License.
+* **Expanded equation type support:** Adding support for more complex mathematical equations. ➕
+* **Improved accuracy:** Enhancing the accuracy of handwritten equation recognition. 🎯
+* **Web-based interface:** Creating a web-based interface for easy access. 🌐
+* **Mobile application:** Developing a mobile application for on-the-go solving. 📱
+* **More detailed explanations:** adding more detailed explanations for each step in the solution. 📖
+* **Graphing functionality:** Adding the capability to graph functions and equations. 📈
 
----
+## 📜 License
 
-*Note: This README is generated based on the available information from the repository. For more detailed documentation and updates, please refer to the [Cruciatus GitHub repository](https://github.com/raiakash1204/cruciatus).*
+This project is licensed under the [MIT License](LICENSE). 📄
+
+## 📧 Contact
+
+For questions or support, please contact [raiakash1204](https://github.com/raiakash1204). 🙋
